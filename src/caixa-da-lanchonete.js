@@ -1,5 +1,4 @@
 class CaixaDaLanchonete {
-
     constructor() {
         this.cardapio = {
             "cafe": 3.00,
@@ -20,7 +19,7 @@ class CaixaDaLanchonete {
         }
 
         if (itens.length === 0) {
-            return "Não há itens no seu carrinho de compra!";
+            return "Não há itens no carrinho de compra!";
         }
 
         let total = 0;
@@ -45,7 +44,6 @@ class CaixaDaLanchonete {
             }
 
             total += this.cardapio[itemCode] * quantity;
-
         }
 
         for (const extra of extras) {
@@ -62,9 +60,7 @@ class CaixaDaLanchonete {
         }
 
         return `R$ ${total.toFixed(2).replace(".", ",")}`;
-
     }
-
 }
 
-export {  CaixaDaLanchonete };
+export { CaixaDaLanchonete };
