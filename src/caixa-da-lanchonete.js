@@ -29,7 +29,12 @@ class CaixaDaLanchonete {
 
         for (const itemInfo of itens) {
             const [itemCode, quantity] = itemInfo.split(",");
+
+            if (!this.cardapio.hasOwnProperty(itemCode)) {
+                return "Item inválido!";
+            }
         }
+
 
     }
 
