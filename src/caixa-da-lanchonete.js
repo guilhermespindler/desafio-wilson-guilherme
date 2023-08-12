@@ -37,6 +37,13 @@ class CaixaDaLanchonete {
             if (quantity <= 0) {
                 return "Quantidade inválida!";
             }
+
+            if (itemCode !== "chantily" && itemCode !== "queijo") {
+                principalItems.push(itemCode);
+            } else {
+                extras.push(itemCode);
+            }
+            
         }
 
 
