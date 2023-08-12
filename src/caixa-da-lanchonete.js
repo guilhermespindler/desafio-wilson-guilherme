@@ -45,6 +45,11 @@ class CaixaDaLanchonete {
             }
 
             total += this.cardapio[itemCode] * quantity;
+
+        }
+
+        for (const extra of extras) {
+            const principal = extra === "chantily" ? "cafe" : "sanduiche";
         }
 
 
