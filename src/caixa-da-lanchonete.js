@@ -43,7 +43,8 @@ class CaixaDaLanchonete {
             } else {
                 extras.push(itemCode);
             }
-            
+
+            total += this.cardapio[itemCode] * quantity;
         }
 
 
