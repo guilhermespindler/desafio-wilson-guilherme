@@ -61,6 +61,7 @@ class CaixaDaLanchonete {
             total *= 1.03;
         }
 
+        return `R$ ${total.toFixed(2).replace(".", ",")}`;
 
     }
 
