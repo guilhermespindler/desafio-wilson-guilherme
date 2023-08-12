@@ -18,6 +18,10 @@ class CaixaDaLanchonete {
         if (!formasDePagamentoValidas.includes(formaDePagamento)) {
             return "Forma de pagamento inválida!";
         }
+
+        if (itens.length === 0) {
+            return "Não há itens no carrinho de compra!";
+        }
     }
 
 }
