@@ -55,6 +55,10 @@ class CaixaDaLanchonete {
             }
         }
 
+        if (formaDePagamento === "dinheiro") {
+            total *= 0.95;
+        }
+
 
     }
 
