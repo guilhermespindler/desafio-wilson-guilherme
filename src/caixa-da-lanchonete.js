@@ -15,6 +15,9 @@ class CaixaDaLanchonete {
 
     calcularValorDaCompra(formaDePagamento, itens) {
         const formasDePagamentoValidas = ["dinheiro", "debito", "credito"];
+        if (!formasDePagamentoValidas.includes(formaDePagamento)) {
+            return "Forma de pagamento inválida!";
+        }
     }
 
 }
