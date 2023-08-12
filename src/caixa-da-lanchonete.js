@@ -50,6 +50,9 @@ class CaixaDaLanchonete {
 
         for (const extra of extras) {
             const principal = extra === "chantily" ? "cafe" : "sanduiche";
+            if (!principalItems.includes(principal)) {
+                return "Item extra não pode ser pedido sem o principal";
+            }
         }
 
 
