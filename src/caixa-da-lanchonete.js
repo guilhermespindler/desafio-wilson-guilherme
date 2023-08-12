@@ -33,6 +33,10 @@ class CaixaDaLanchonete {
             if (!this.cardapio.hasOwnProperty(itemCode)) {
                 return "Item inválido!";
             }
+
+            if (quantity <= 0) {
+                return "Quantidade inválida!";
+            }
         }
 
 
