@@ -1,0 +1,5 @@
+class CaixaDaLanchonete {
+
+}
+
+export {  CaixaDaLanchonete };
