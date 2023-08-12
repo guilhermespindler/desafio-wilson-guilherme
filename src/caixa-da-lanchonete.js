@@ -11,7 +11,11 @@ class CaixaDaLanchonete {
             "combo1": 9.50,
             "combo2": 7.50,
         };
-    };
+    }
+
+    calcularValorDaCompra(formaDePagamento, itens) {
+        
+    }
 
 }
 
