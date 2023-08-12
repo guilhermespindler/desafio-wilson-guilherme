@@ -27,6 +27,10 @@ class CaixaDaLanchonete {
         let principalItems = [];
         let extras = [];
 
+        for (const itemInfo of itens) {
+            const [itemCode, quantity] = itemInfo.split(",");
+        }
+
     }
 
 }
