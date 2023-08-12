@@ -57,6 +57,8 @@ class CaixaDaLanchonete {
 
         if (formaDePagamento === "dinheiro") {
             total *= 0.95;
+        } else if (formaDePagamento === "credito") {
+            total *= 1.03;
         }
 
 
