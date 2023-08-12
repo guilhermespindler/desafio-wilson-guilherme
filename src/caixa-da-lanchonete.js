@@ -20,12 +20,13 @@ class CaixaDaLanchonete {
         }
 
         if (itens.length === 0) {
-            return "Não há itens no carrinho de compra!";
+            return "Não há itens no seu carrinho de compra!";
         }
 
         let total = 0;
         let principalItems = [];
         let extras = [];
+
     }
 
 }
